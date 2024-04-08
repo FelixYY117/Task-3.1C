@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:textStyle="bold"
+        app:title="SIT305 Quiz APP  "
+        app:titleMarginStart="115dp"
+        app:titleTextColor="@color/black"
+android:background="@color/green"
+
+        />
+
+    <LinearLayout
+        android:paddingTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:text="Enter your name:"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="@color/red"/>
+
+        <EditText
+            android:id="@+id/nameEditText"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:background="@drawable/edit_text_border"
+                />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/startQuizButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="START"
+        android:layout_margin="50dp"
+        android:background="@color/green"/>
+</LinearLayout>
